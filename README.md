@@ -145,33 +145,36 @@
 
 ## 내 파트 페이지별 기능
 
-#### 작업 진행 목록
+#### 작업 지시서 목록
 <p align="center">
   <img width="1919" height="944" alt="생산_작업지시서관리" src="https://github.com/user-attachments/assets/54f0f7a1-8a39-43f0-941b-e8717cb030c9" />
 </p>
 
-+ 작업지시서에 등록된 제품들의 현재 진행 상태를 확인할 수 있는 페이지입니다.  
-+ 해당 지시서를 선택해 작업 공정 확인 및 생산 설비 페이지로 접근 가능합니다.
++ 작성된 작업 지시서를 조회할 수 있는 페이지 입니다. 
++ 해당 지시서를 선택해 작업 지시서 상세 관리 페이지로 이동할 수 있습니다.
 + 체크박스를 통해 체크한 항목의 지시서들을 엑셀로 다운 가능합니다.
++ 기간, 상태, 라인, 제품명, 작업지시자번호, 공정 유형의 조건을 통해 필터 걸어 조회가 가능합니다.
 
 ---
 
-#### 작업 공정
+
+#### 작업 지시서 상세 관리 
 <p align="center">
-  <img width="420" height="942" alt="MES 작업공정" src="https://github.com/user-attachments/assets/9d0a363d-b50f-48c2-9ea5-babb61c13232" />
-  <img width="420" height="720" alt="MES 작업공정상세" src="https://github.com/user-attachments/assets/69a88123-a45e-4f47-a7cd-d6b7b2240c57" />
+  <img width="1919" height="1316" alt="생산_작업지시서관리" src="https://github.com/user-attachments/assets/491d3a9e-66a0-4012-b424-2db4bd92acc2" />
+  <!--<img width="420" height="942" alt="MES 작업공정" src="https://github.com/user-attachments/assets/9d0a363d-b50f-48c2-9ea5-babb61c13232" />-->
+  <!--<img width="420" height="720" alt="MES 작업공정상세" src="https://github.com/user-attachments/assets/69a88123-a45e-4f47-a7cd-d6b7b2240c57" />-->
 </p>
 
-+ 작업 진행 목록에서 선택한 제품의 작업 상세 작업 공정을 확인 가능합니다.
-+ 생산 시작 전 이라면 첫번째 항목에서 설비를 클릭하면 생산 장비 페이지로 이동하며  
-  장비를 선택후 생산을 시작할 수 있습니다.
-+ 모든 작업이 완료되면 마지막 행에서 설비를 클릭해서 생산 종료가 가능합니다.
-+ 실시간으로 현재 생산 상태를 확인 가능합니다.  
-  생산 완료는 녹색, 생산 중은 노랑, 생산 전은 회색으로 구분되어 표시됩니다.
++ 작업 지시서 목록에서 선택한 작업 지시서 상세 조회가 확인 가능하며 데이터가 자동입력된 상태로 조회합니다.
++ 사이드 탭에서 작업 지시서 관리를 선택하여 들어온다면 비어있는 필드로 조회하게 됩니다.
++ 비어있는 상태로 데이터를 채워은 후 저장을 클릭한다면 작업지시번호가 자동으로 지정되어 새로운 작업 지시서를 등록하게 됩니다
++ 완료되지않은 불러온 작업 지시서는 데이터를 변경하여 저장한다면 불러온 작업 지시서의 내용이 수정되게 됩니다.
   
 <p align="center">
-  <img width="1901" height="941" alt="생산현황" src="https://github.com/user-attachments/assets/93c73232-0769-480b-b712-95057fb38b60" />
+  <img width="1920" height="1080" alt="77" src="https://github.com/user-attachments/assets/9f6c9f70-579a-4c21-a07d-b6bbd6b6b74d" />
 </p>
+
++ 작선 후 등록된 주문을 조회하는 모달입니다.
 
 ---
 
